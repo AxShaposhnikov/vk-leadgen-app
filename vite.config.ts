@@ -4,6 +4,7 @@
   import path from 'path';
 
   export default defineConfig({
+    base: '/vk-leadgen-app/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
