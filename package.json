@@ -57,7 +57,7 @@
         "build": "vite build",
         "preview": "vite preview",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist"
+        "deploy": "gh-pages -d build"
     },
     "homepage": "https://AxShaposhnikov.github.io/vk-leadgen-app"
 }
