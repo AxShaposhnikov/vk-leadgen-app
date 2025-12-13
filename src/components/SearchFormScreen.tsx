@@ -19,7 +19,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from './ui/dialog';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'motion/react';
 
 interface SearchFormScreenProps {
   onBack: () => void;
