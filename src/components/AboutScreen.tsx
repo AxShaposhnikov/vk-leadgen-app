@@ -35,7 +35,10 @@ export function AboutScreen({ onBack }: AboutScreenProps) {
               <Target className="w-4 h-4" />
               <span className="text-sm">О проекте</span>
             </div>
-            <h2 className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent mb-3">
+            <h2 
+              className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent mb-3 text-3xl font-bold"
+              style={{ WebkitBackgroundClip: 'text', backgroundClip: 'text' }}
+            >
               AI LeadGen VK
             </h2>
           </div>

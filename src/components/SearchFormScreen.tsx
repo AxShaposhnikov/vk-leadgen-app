@@ -59,7 +59,10 @@ export function SearchFormScreen({ onBack }: SearchFormScreenProps) {
       </div>
 
       <div className="flex-1 max-w-lg mx-auto w-full">
-        <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-6">
+        <h2 
+          className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-6"
+          style={{ WebkitBackgroundClip: 'text', backgroundClip: 'text' }}
+        >
           Параметры поиска
         </h2>
 
