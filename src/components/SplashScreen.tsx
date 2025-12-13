@@ -35,7 +35,10 @@ export function SplashScreen({ onFinish }: SplashScreenProps) {
         </div>
 
         {/* Text */}
-        <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
+        <h1 
+          className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2"
+          style={{ WebkitBackgroundClip: 'text', backgroundClip: 'text' }}
+        >
           AI LeadGen VK
         </h1>
         <p className="text-gray-500 text-sm font-medium tracking-wide">

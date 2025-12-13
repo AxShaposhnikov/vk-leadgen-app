@@ -36,7 +36,10 @@ export function WelcomeScreen({ onNavigateToAbout, onNavigateToSearch }: Welcome
         </div>
 
         {/* Title */}
-        <h1 className="mb-3 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent text-4xl font-bold">
+        <h1 
+          className="mb-3 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent text-4xl font-bold"
+          style={{ WebkitBackgroundClip: 'text', backgroundClip: 'text' }}
+        >
           AI LeadGen VK
         </h1>
         
